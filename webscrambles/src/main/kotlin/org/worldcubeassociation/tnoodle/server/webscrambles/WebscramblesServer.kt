@@ -6,6 +6,7 @@ import io.ktor.routing.routing
 import io.ktor.server.engine.commandLineEnvironment
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import kotlinx.io.IOException
 import org.slf4j.LoggerFactory
 import org.worldcubeassociation.tnoodle.server.ApplicationHandler
 import org.worldcubeassociation.tnoodle.server.TNoodleServer
@@ -17,7 +18,6 @@ import org.worldcubeassociation.tnoodle.server.webscrambles.routing.job.JobSched
 import org.worldcubeassociation.tnoodle.server.webscrambles.server.LocalServerEnvironmentConfig
 import org.worldcubeassociation.tnoodle.server.webscrambles.server.MainLauncher
 import org.worldcubeassociation.tnoodle.server.webscrambles.server.OfflineJarUtils
-import java.io.IOException
 import java.net.URL
 
 class WebscramblesServer(val environmentConfig: ServerEnvironmentConfig) : ApplicationHandler {
