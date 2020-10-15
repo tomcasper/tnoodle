@@ -57,3 +57,5 @@ _Important note: You must never use a custom build for any official competitions
 ### Notes
 
 -   Each project is a fully fledged Gradle project (they each have a `build.gradle.kts` file). Your IDE should be able to import Gradle build structures nowadays. If not, this is a good indicator that your IDE is outdated and should be replaced.
+
+
